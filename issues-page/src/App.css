@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+/* mine */
+#issue-div-header{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  background-color: #161b22;
+  color: #c9d1d9;
+  
+ }
+ .head{
+   fill: #c9d1d9;
+ }
+ .issue-div-datas *{
+  margin-left: 1rem;
+ }
+ .issue-div-links *{
+   margin-right: 1rem;
+ }

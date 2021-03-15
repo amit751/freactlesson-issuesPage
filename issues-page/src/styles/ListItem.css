@@ -3,6 +3,16 @@
     padding: 0;
 }
 .issue{
+background-color: #0d1117;
+    border: 0.08rem solid #1b2027;
+    border-top: none;
+    color: #c9d1d9;
+}
+.issue:hover{
+    background-color: #161b22;
+}
+
+/* .issue{
     background-color: #fff;
     border: 0.08rem solid rgb(185, 184, 184);
     border-top: 0;
@@ -12,7 +22,7 @@
 }
 .issue:hover{
     background-color: rgb(255, 246, 246);
-}
+} */
 .row{
     display: flex;
     position: relative;
@@ -28,4 +38,7 @@
 }
 .tags{
     margin-left: 8rem;
+}
+.octicon{
+    fill:#35ac50;
 }
