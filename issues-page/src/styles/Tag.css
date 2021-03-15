@@ -1,0 +1,13 @@
+.tag{
+    border-radius: 1rem;
+    padding: 0.2rem 0.7rem;
+}
+.red{
+    background-color: rgb(238, 42, 42);
+    margin: 0.3rem;
+}
+.blue{
+    background-color: royalblue;
+    margin: 0.5rem;
+
+}

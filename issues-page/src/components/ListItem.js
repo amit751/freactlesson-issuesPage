@@ -1,21 +1,23 @@
 import React , {Component} from "react" ;
 import Tag from "./Tag.js";
+import "../styles/ListItem.css";
 
 export default class ListItem extends Component{
     
     render(){
         return(
            <li className="issue">
-               <p className="title">{this.props.text}</p>
-               <p className="details">#{this.props.serial} opened {this.props.time} ago by {this.props.user}</p>
-               <div className="tags">
-                {this.props.tags.map((tag , index)=>{
-                  return <Tag color={tag.color} text={tag.text} key={"#"+this.key+index}/>
-                })}
-               </div>
-               <span className="comments">{this.props.comments}</span> 
-               
-           </li> 
+               <div className="row">
+                    <p className="title">{this.props.text}</p>
+                    <span className="tags">
+                        {this.props.tags.map((tag , index)=>{
+                            return <Tag color={tag.color} text={tag.text} key={"#"+this.key+index}/>
+                        })}
+                    </span>
+                    <span className="comments">{this.props.comments}</span> 
+                </div>
+                <p className="details">#{this.props.serial} opened {this.props.time} ago by {this.props.user}</p>
+            </li> 
         );
 
     }

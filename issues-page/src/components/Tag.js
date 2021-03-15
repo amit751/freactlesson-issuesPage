@@ -1,4 +1,5 @@
 import React ,{Component} from "react";
+import "../styles/Tag.css"
 
 const Tag= function (props){
     

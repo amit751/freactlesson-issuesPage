@@ -10,9 +10,26 @@ const allissues = seriallNum.map((item ,index)=>{
 
 function App() {
   return (
+    <>
+    <div id="issue-div-header">
+        <div className="issue-div-datas">
+          <span className="issue-div-data">492 open</span>
+          <span className="issue-div-data">5443 closed</span>
+        </div>
+        <div className="issue-div-links">
+          <span className="issue-div-link">Author</span>
+          <span className="issue-div-link">Tags</span>
+          <span className="issue-div-link">Project</span>
+          <span className="issue-div-link">Milestones</span>
+          <span className="issue-div-link">Assignee</span>
+          <span className="issue-div-link">Sort</span>
+        </div>
+      </div>
+
     <ul>
      {allissues}
     </ul>
+    </>
   );
 }
 

@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.issue{
+    background-color: #fff;
+    border: 0.08rem solid rgb(185, 184, 184);
+    border-top: 0;
+   
+
+
+}
+.issue:hover{
+    background-color: rgb(255, 246, 246);
+}
+.row{
+    display: flex;
+    position: relative;
+    padding: 1rem;
+}
+.comments{
+    position: absolute;
+    right: 1rem;
+}
+.details{
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+.tags{
+    margin-left: 8rem;
+}
